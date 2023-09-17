@@ -1,0 +1,85 @@
+button {
+  width: 10vw;
+}
+/* Add your styles to App.css or create a new CSS file */
+
+.input-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-form form {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  background-color: #0056b3;
+}
+
+.seo-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.seo-info h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.seo-info h2 span {
+  color: #007bff;
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+
+.seo-info p {
+  margin: 5px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 0.4rem;
+}
+.seo-info p:hover {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+/* Additional style for the new SEO data display */
+.additional-seo-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.additional-seo-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.additional-seo-info p {
+  margin: 5px 0;
+}
